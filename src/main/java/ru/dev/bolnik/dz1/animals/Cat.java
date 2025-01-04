@@ -11,6 +11,11 @@ public class Cat extends Animal {
         counter++;
     }
 
+    @Override
+    public void swim(int distance) {
+        System.out.println(name + " не умеет плавать");
+    }
+
     public static int getCounter() {
         return counter;
     }
