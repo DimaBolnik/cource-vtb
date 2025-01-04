@@ -1,6 +1,6 @@
 package ru.dev.bolnik.dz1.animals;
 
-public abstract class Animal {
+public class Animal {
     protected String name;
     protected int maxSwimming;
     protected int maxRunning;
