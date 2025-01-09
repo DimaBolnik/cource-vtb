@@ -16,7 +16,8 @@ public class Robot implements Contestant {
         if (distance > maxRun) {
             System.out.println(name + " не пробежал дистанцию " + distance + "m");
             return false;
-        } else System.out.println(name + " пробежал дистанцию " + distance + "m");
+        }
+        System.out.println(name + " пробежал дистанцию " + distance + "m");
         return true;
     }
 
@@ -25,7 +26,8 @@ public class Robot implements Contestant {
         if (height > maxJump) {
             System.out.println(name + " не перепрыгнул стену " + height + "m");
             return false;
-        } else System.out.println(name + " перепрыгнул стену " + height + "m");
+        }
+        System.out.println(name + " перепрыгнул стену " + height + "m");
         return true;
     }
 
