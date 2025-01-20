@@ -31,7 +31,6 @@ public class MainClass {
 //                                Thread.sleep(5);
                                 Item item = session.get(Item.class, count);
                                 item.setVal(item.getVal() + 1);
-                                session.save(item);
                                 session.getTransaction().commit();
                                 updated = true;
                             }catch (OptimisticLockException e) {
